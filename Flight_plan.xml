@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<FlightPlan>
+  <waypoints>
+    <waypoint name="WP1" x="10.0" y="0.0" alt="2.0"/>
+    <waypoint name="WP2" x="10.0" y="10.0" alt="2.0"/>
+    <waypoint name="WP3" x="0.0" y="10.0" alt="2.0"/>
+    <waypoint name="WP4" x="0.0" y="0.0" alt="2.0"/>
+  </waypoints>
+  
+  <instructions>
+	  <instruction type="takeOff" id=0 arg1="2"/>
+	  <instruction type="wait" id=1 arg1="5000"/>
+	  <instruction type="forward" id=2 arg1="2800"/>
+	  <instruction type="wait" id=3 arg1="3000"/>
+	  <instruction type="rotRight" id=4 arg1="1400"/>
+	  <instruction type="wait" id=5 arg1="3000"/>
+	  <instruction type="forward" id=6 arg1="1000"/>
+	  <instruction type="wait" id=7 arg1="2000"/>
+	  <instruction type="land" id=8/>
+  </instructions>
+</FlightPlan>
